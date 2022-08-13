@@ -11,16 +11,6 @@ I put my demo [here](http://www.gpchen.me/#/)
 
 # What I learned
 
-项目是跟[b站](https://www.bilibili.com/video/BV1Gb4y1d7zb)大佬学着做的([项目白皮书](https://mszlu.com/java/blog/01/01.html))，在这基础上自己改动了一些地方。
-
-之前自学过Spring framework相关内容, 但是没有过相关的比较完整的RESTful风格项目，刚好拿这个小项目来练手。项目不大，但是涉及到了很多小技术点，想接触的一些技术也正好接触到了。
-
-感受：做完最强烈的感受是。。。最简单的就是api开发。其实就是逻辑的处理。重点难点在于整个项目是怎么搭建的，如何分层，还有其中线程池，aop，拦截器，缓存等技术的应用。还学到了应该如何使用docker和nginx把项目部署到网上。
-
-
-
-这里记录我的大致开发流程。记录一下我学到的一些技术点。具体代码见我的project。
-
 ## Structure
 
 <img src="./images/image-20220811223141706.png" alt="image-20220811223141706" style="zoom:50%;" />
@@ -712,7 +702,15 @@ to be continued
 
 
 
+**絮絮叨叨**
+
+项目是跟[b站](https://www.bilibili.com/video/BV1Gb4y1d7zb)大佬学着做的([项目白皮书](https://mszlu.com/java/blog/01/01.html))，在这基础上自己改动了一些地方。
+
+之前自学过Spring framework相关内容, 但是没有过相关的比较完整的RESTful风格项目，刚好拿这个小项目来练手。项目不大，但是涉及到了很多小技术点，想接触的一些技术也正好接触到了。
+
+感受：做完最强烈的感受是。。。最简单的就是api开发。其实就是逻辑的处理。重点难点在于整个项目是怎么搭建的，如何分层，还有其中线程池，aop，拦截器，缓存等技术的应用。还学到了应该如何使用docker和nginx把项目部署到网上。
 
 
 
+这里记录我的大致开发流程。记录一下我学到的一些技术点。具体代码见我的project。
 
