@@ -7,6 +7,8 @@ This is the demo of blog application, It's a RESTful Web App
   - Blog-admin: administration system of the blog (in developing)
 - Blog-app: front end
 
+I put my demo [here](http://gpchen.me/#/) 
+
 # What I learned
 
 项目是跟[b站](https://www.bilibili.com/video/BV1Gb4y1d7zb)大佬学着做的([项目白皮书](https://mszlu.com/java/blog/01/01.html))，在这基础上自己改动了一些地方。
