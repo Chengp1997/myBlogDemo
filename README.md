@@ -21,7 +21,7 @@ This is the demo of blog application, It's a RESTful Web App
 
 ## Structure
 
-<img src="/Users/chengeping/Documents/LearningMaterial/Projects/myBlogDemo/images/image-20220811223141706.png" alt="image-20220811223141706" style="zoom:50%;" />
+<img src="./images/image-20220811223141706.png" alt="image-20220811223141706" style="zoom:50%;" />
 
 ## Technologies
 
