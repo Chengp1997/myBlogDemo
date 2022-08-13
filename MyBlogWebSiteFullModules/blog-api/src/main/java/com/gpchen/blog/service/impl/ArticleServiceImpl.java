@@ -118,7 +118,6 @@ public class ArticleServiceImpl implements ArticleService {
             article.setBodyId(-1L);//先设置默认值，因为后面body需要article id，必须先保存一次
             articleMapper.insert(article);
         }
-        System.out.println("0000000+"+articleParams.getCategory().getId());
         //还有bodyId没有设置
         //article_body
         ArticleBody articleBody = new ArticleBody();

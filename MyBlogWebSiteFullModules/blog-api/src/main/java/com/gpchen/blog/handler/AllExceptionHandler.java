@@ -15,5 +15,4 @@ public class AllExceptionHandler {
         e.printStackTrace();
         return Result.fail(ErrorCode.SYSTEM_ERROR.getCode(), ErrorCode.SYSTEM_ERROR.getMsg());
     }
-
 }

@@ -28,7 +28,7 @@ public class WebMVCConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry){
         //Interceptors for login interceptor, when there are pages needed to be login, this will triggered
         registry.addInterceptor(loginInterceptor)
-                .addPathPatterns("/comments/create/change")//注意最后这里，只有登录才可以评论
+                .addPathPatterns("/comments/create/change")//comment only when login
                 .addPathPatterns("/articles/publish");
     }
 }

@@ -68,7 +68,7 @@ public class SSOServiceImpl implements SSOService {
      */
     @Override
     public Result logout(String token) {
-        redisTemplate.delete(token);
+        redisTemplate.delete("TOKEN_"+token);
         return Result.success(null);
     }
 
@@ -128,12 +128,12 @@ public class SSOServiceImpl implements SSOService {
     @Override
     public SysUser checkToken(String token) {
         //empty or not
-        if(StringUtils.isBlank(token)){
+        if(StringUtils.isBlank(token)||token==null){
             return null;
         }
         //can be parsed
         Map<String,Object> stringObjectMap = JWTUtils.checkToken(token);
-        if(stringObjectMap==null){//解析不出来，
+        if(stringObjectMap==null){//can not resolve
             return null;
         }
         //是否在redis

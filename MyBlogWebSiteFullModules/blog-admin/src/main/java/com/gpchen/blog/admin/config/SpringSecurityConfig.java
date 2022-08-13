@@ -15,11 +15,11 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         return new BCryptPasswordEncoder();
     }
 
-    public static void main(String[] args) {
-        //加密策略 MD5 不安全 彩虹表  MD5 加盐
-        String admin = new BCryptPasswordEncoder().encode("admin");
-        System.out.println(admin);
-    }
+//    public static void main(String[] args) {
+//        //加密策略 MD5 不安全 彩虹表  MD5 加盐
+//        String admin = new BCryptPasswordEncoder().encode("admin");
+//        System.out.println(admin);
+//    }
 
     @Override
     public void configure(WebSecurity web) throws Exception {

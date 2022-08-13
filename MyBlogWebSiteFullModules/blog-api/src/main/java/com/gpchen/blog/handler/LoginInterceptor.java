@@ -50,13 +50,12 @@ public class LoginInterceptor implements HandlerInterceptor {//The interceptor f
         log.info("=================request end===========================");
 
         //if token is empty -> not log in, need to log in
-        if(StringUtils.isBlank(token)){
+        if(StringUtils.isBlank(token)||token.equals("undefined")){
             Result result = Result.fail(ErrorCode.NO_LOGIN.getCode(), ErrorCode.NO_LOGIN.getMsg());
             response.setContentType("application/json;charset=utf-8");
             response.getWriter().println(JSON.toJSONString(result));
             return false;
         }
-
         //if token is not empty, need to verify the token, whether the user exist
         SysUser sysUser = ssoService.checkToken(token);
         if(sysUser==null){
