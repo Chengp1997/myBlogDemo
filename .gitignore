@@ -2,3 +2,5 @@
 .DS_Store
 MyBlogWebSiteFullModules/.idea/aws.xml
 *.properties
+MyBlogWebSiteFullModules/blog-api/src/main/resources/application-prod.properties
+MyBlogWebSiteFullModules/blog-api/src/main/resources/application.properties
