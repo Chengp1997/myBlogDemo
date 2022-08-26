@@ -7,7 +7,7 @@ This is the demo of blog application, It's a RESTful Web App
   - Blog-admin: administration system of the blog (in developing)
 - Blog-app: front end
 
-I put my demo [here](http://www.gpchen.me/#/) 
+I put my demo [website](http://www.gpchen.me/#/) 
 
 # What I learned
 
